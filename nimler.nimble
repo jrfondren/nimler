@@ -1,5 +1,5 @@
 mode = ScriptMode.Silent
-version = "4.6.0.3"
+version = "4.6.1"
 author = "wltsmrz"
 description = "Erlang/Elixir NIFs"
 license = "MIT"
