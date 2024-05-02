@@ -35,7 +35,7 @@ $4
 $5
 """
 const erlangFn = """
-  $1($2) -> erlang:nif_error(:nif_library_not_loaded).
+  $1($2) -> erlang:nif_error(nif_library_not_loaded).
 """
 
 proc genFn(templ: string, fn: ErlNifFunc): string {.compileTime.} =
